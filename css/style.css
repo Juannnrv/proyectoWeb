@@ -53,10 +53,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 120px;
+    margin: var(--margin--section-home)
 }
 .article__infohome {
-    margin: 72px 0 100px 0;
+    margin-top: 100px;
 }
 .article__infohome h2{
     color: var(--color-1);
@@ -85,7 +85,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 80px;
+    margin: var(--margin--section-about)
 }
 .article__infous {
     margin-top: 15px;
@@ -112,25 +112,101 @@ nav {
 }
 
 .section__menu {
+    margin: var(--margin--section-menu)
+}
+.article__infomenu {
+    text-align: center;
+}
+.article__infomenu h3{
+    color: var(--color-1);
+    font-size: 20px;
+}
+.article__infomenu h2 {
+    color: var(--color-2);
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 .article__price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
 }
 .price__product {
+    background-color: var(--color-5);
+    width: 22vw;
+    text-align: center;
 }
 .product__icon {
+    display: flex;
+    justify-content: flex-end;
 }
-.product__text {
+.product__text img {
+    width: 15vw;
 }
+.product__text h2,
+.product__text h3 {
+    color: var(--color-4);
+}
+.product__text h4 {
+    color: var(--color-1);
+}
+
 .section__service {
+    margin: var(--margin--section-service)
+}
+.article__infoservice {
+    text-align: center;
+}
+.article__infoservice h3{
+    color: var(--color-1);
+}
+.article__infoservice h2{
+    color: var(--color-2);
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 .article__services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .service__content {
+    text-align: center;
+    width: 22vw;
+    text-align: center;
 }
+.service__content h2 {
+    color: var(--color-1);
+    margin-bottom: 10px;    
+}
+.service__content p {
+    color: var(--color-2);
+}
+.service__content img{
+    width: 15vw;
+}
+
 .section__contact {
+    margin: var(--margin--section-contact);
+    background-color: var(--color-5);
 }
 .article__contact {
+    padding: 50px 80px;
+    text-align: center;
 }
+.article__contact h2 {
+    color: var(--color-4);
+    font-size: 62px;
+    margin-bottom: 10px;
+}
+.article__contact a {
+    background-color: var(--color-1) ;
+    border-radius: 2px;
+    color: var(--color-2);
+    padding: 8px 20px;
+}
+
 .footer__content {
 }
 
