@@ -1,0 +1,137 @@
+@import url(./variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-6);
+    margin: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header__banner img{
+    width: 100%;
+}
+.header__imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+.nav__tittle {
+    margin-top: -24px;
+}
+.nav__tittle h1{
+    color: var(--color-1);
+    font-size: 34px;
+}
+.nav__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: var(--color-2);
+    font-size: 14px;
+}
+
+/* Main */
+.main {
+}
+
+.section__home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 120px;
+}
+.article__infohome {
+    margin: 72px 0 100px 0;
+}
+.article__infohome h2{
+    color: var(--color-1);
+    font-size: 84px;
+}
+.article__infohome p {
+    color: var(--color-2);
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+.article__infohome a {
+    background-color: var(--color-1) ;
+    border-radius: 2px;
+    color: var(--color-2);
+    padding: 8px 10px;
+}
+.article_img {
+    width: 30vw;
+    height: 30vh;
+}
+.article_img img{
+    width: 100%;
+}
+
+.section__about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px;
+}
+.article__infous {
+    margin-top: 15px;
+}
+.article__infous h3{
+    color: var(--color-1);
+    font-size: 20px;
+}
+.article__infous h2{
+    color: var(--color-2);
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.article__infous p{
+    color: var(--color-2);
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.article__infous a {
+    background-color: var(--color-1) ;
+    border-radius: 2px;
+    color: var(--color-2);
+    padding: 8px 20px;
+}
+
+.section__menu {
+}
+.article__price {
+}
+.price__product {
+}
+.product__icon {
+}
+.product__text {
+}
+.section__service {
+}
+.article__services {
+}
+.service__content {
+}
+.section__contact {
+}
+.article__contact {
+}
+.footer__content {
+}
+
+
