@@ -5,10 +5,12 @@
     --color-4: #000;
     --color-5: #ffefe8;
     --color-6: #2c2b47;
+    --color-7: #087f5b;
 
-    --margin--section-home: 0 120px 80px 120px;
-    --margin--section-about: 80px;
-    --margin--section-menu: 80px;
-    --margin--section-service: 80px;
-    --margin--section-contact: 80px;
+    --padding--section-home: 40px 50px;
+    --padding--section-about: 150px;
+    --padding--section-menu: 80px;
+    --padding--section-service: 80px;
+    --padding--section-contact: 100px;
+    --padding--section-footer: 100px 80px;
 }
