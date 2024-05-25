@@ -290,7 +290,6 @@ summary {
     gap: 80px;
     margin-left: 318px;
 }
-
 .line {
     width: 140px;
     height: 44px;
@@ -339,37 +338,37 @@ summary {
         font-size: 25px;
         margin-top: 8px;
     }
-
+    
     .article_content {
         flex-direction: column;
         align-items: center;
         gap: 15px;
         margin: auto;
     }
-
+    
     .content_info {
         margin-top: 50px;
         text-align: center;
     }
-
+    
     .content_info h2 {
         font-size: 53px;
     }
-
+    
     .content_info p {
         font-size: 26px;
     }
-
+    
     .content_info a {
         padding: 6px 8px;
     }
-
+    
     .article_content img {
         width: 80%;
         margin-top: 20px;
     }
-
-
+    
+    
     .section__about {
         flex-direction: column-reverse;
         align-items: center;
@@ -383,15 +382,15 @@ summary {
         text-align: center;
         margin: 20px 0;
     }
-
+    
     .article__infous h2 {
         font-size: 32px;
     }
-
+    
     .article__infous p {
         font-size: 16px;
     }
-
+    
     .section__menu {
         padding: var(--padding--media-section-menu);
         height: 180vh;
@@ -399,12 +398,12 @@ summary {
     .article__infomenu h2{
         font-size: 32px;
     }
-
+    
     .article__price {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .price__product {
         width: 80%;
         margin-bottom: 20px;
@@ -415,7 +414,7 @@ summary {
     .product__text img {
         width: 70%;
     }
-
+    
     .section__service {
         padding: var(--padding--media-section-service);
         height: 156vh;
@@ -436,7 +435,7 @@ summary {
     .service__content img {
         width: 60%;
     }
-
+    
     .section__contact {
         padding: var(--padding--media-section-contact);
         height: 33vh;
@@ -451,7 +450,7 @@ summary {
     .article__contact a {
         font-size: 13px;
     }
-
+    
     .section_footer {
         padding: var(--padding--media-section-footer);
         height: 125vh;
@@ -462,13 +461,18 @@ summary {
         gap: 10px;
         margin: 0;
     }
-
+    
     .article_footer .footer__content {
         margin-bottom: 20px;
         align-self: start;
     }
+    #ultima {
+        margin-left: 90px;
+    }
+    .line {
+        width: 80px;
+    }
     .footer__content img{
-        margin-left: -20px;
+        margin-left: -10px;
     }
 }
-    
